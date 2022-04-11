@@ -24,7 +24,7 @@ function App() {
               <h4>
                 <Link to="upload">File Upload</Link>
                 <br />
-                <Link to="hns-lookup">HNS Lookup</Link>
+                {/* <Link to="hns-lookup">HNS Lookup</Link> */}
               </h4>
             </Route>
           </Switch>
