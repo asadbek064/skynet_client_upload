@@ -1,0 +1,12 @@
+.Aligner {
+  display: flex;
+  /* flex-direction: row; */
+  align-items: center;
+  justify-content: center;
+  min-height: 550px;
+  height: 100vh;
+}
+
+.Aligned {
+  position: relative;
+}

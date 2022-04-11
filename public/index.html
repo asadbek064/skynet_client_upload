@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="theme-color" content="#000000" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+    <title>AnimetTV-SkyNet-Portal</title>
+    <style>
+      iframe {
+        display: none;
+      }
+      .loading-wrapper {
+        position: relative;
+        width: 100px;
+        height: 100px;
+        float: left;
+        margin: 10px;
+      }
+
+      .loadingimage {
+        position: absolute;
+        color: #fff;
+        font-size: 55px;
+        top: 55px;
+        left: 55px;
+        transform: translate(-50%, -50%);
+      }
+
+      .loadingimage > img {
+        width: 340px;
+        margin-top: 10px;
+      }
+
+      .page-wrapper {
+        height: 100vh;
+        background-color: #eee;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      body {
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+    <div id="root">
+      <img
+        width="200"
+        style="margin: 1rem auto; width: 200;"
+        }}
+        src="https://img.animet.site/file/animettv-avatars/other/animet_logo.png"
+      />
+      <div class="page-wrapper">
+        <div class="loading-wrapper">
+          <div class="loadingimage">
+            <img
+              src="https://giffiles.alphacoders.com/199/199003.gif"
+              alt="Loading"
+            />
+            <h1>Loading...</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
